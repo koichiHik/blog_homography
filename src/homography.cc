@@ -284,7 +284,7 @@ void ApplyHomographyMatToPoint2fVector(const std::vector<cv::Point2f> &src,
 
 } // namespace
 
-DEFINE_string(picture_path1, "./data/DSC02721.jpg",
+DEFINE_string(picture_path1, "./data/DSC02719.jpg",
               "Path to the source picture.");
 DEFINE_string(picture_path2, "./data/DSC02721.jpg",
               "Path to the source picture.");

@@ -1,9 +1,8 @@
 #!/bin/bash
 
-ROOT_3RD=~/workspace/3rdParty
+#ROOT_3RD=~/workspace/3rdParty
 CMAKE_BUILD_TYPE=Debug
-OpenCV_DIR=${ROOT_3RD}/opencv331/installd/share/OpenCV
-Eigen3_DIR=${ROOT_3RD}/eigen334/install/share/eigen3/cmake/
+#OpenCV_DIR=${ROOT_3RD}/opencv331/installd/share/OpenCV
 
 # GLOGS
 GLOG_INCLUDE_DIRS=/usr/include
@@ -22,8 +21,6 @@ cd build
 
 cmake \
   -D CMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} \
-  -D Eigen3_DIR=${Eigen3_DIR} \
-  -D OpenCV_DIR=${OpenCV_DIR} \
   -D GLOG_INCLUDE_DIRS=${GLOG_INCLUDE_DIRS} \
   -D GLOG_LIBRARY_DIRS=${GLOG_LIBRARY_DIRS} \
   -D GLOG_LIBRARIES=${GLOG_LIBRARIES} \
