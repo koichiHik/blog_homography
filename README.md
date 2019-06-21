@@ -6,7 +6,7 @@ The code itself is extracted from opencv fisheye calibration and refactored by m
 Little bit of code walk through is written in my blog.
 http://daily-tech.hatenablog.com/entry/2019/06/17/041356
 
-* Prerequisite
+### Prerequisite
 You need the following libraries for successful build.
 
 OpenCV
@@ -14,10 +14,10 @@ GLOG
 GFLAG
 Boost
 
-* Command
+### Command
 
-Build
- sh build.sh
+#### Build command
+sh build.sh
 
-Run
- ./build/homography
+#### Run command
+./build/homography
